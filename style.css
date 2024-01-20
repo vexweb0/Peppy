@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.profile-container {
+    display: flex;
+    gap: 20px;
+}
+
+.profile {
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.blue-borders {
+    border: 5px solid #3498db; /* Blue color for borders */
+}
+
+.pink-borders {
+    border: 5px solid #ff66b2; /* Pink color for borders */
+}
+
+header {
+    background-color: #3498db;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.dog-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.dog-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info {
+    text-align: left;
+}
+
+h2 {
+    color: #e74c3c;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #333;
+    margin-top: 10px;
+}
+
+.dog-description {
+    margin: 0; /* Remove margin for the description paragraph */
+}
